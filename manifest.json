@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "AutoRefresh",
+    "version": "1.0",
+    "description": "Refreshes the page automatically",
+    "permissions": [
+      "tabs",
+      "alarms",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
